@@ -1,0 +1,263 @@
+@media screen and (max-width: 576px) {
+  .nav-hambarger-mainu {
+    display: block;
+  }
+  .navbar-manu {
+    margin: 0 auto;
+  }
+  .nav-list-contaner {
+    display: none;
+  }
+  /* banner section */
+  .banner {
+    display: block;
+    padding: 3rem;
+    margin: 0 auto;
+  }
+  .btn-primary,
+  .btn-primary2 {
+    font-size: 15px;
+    padding: 8px;
+  }
+  .banner-img-contaner {
+    padding: 2rem;
+  }
+  .banner-title {
+    font-size: 48px;
+    width: 300px;
+  }
+
+  .banner-dis {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+  .banner-img-box2 {
+    padding: 0.15rem;
+
+    left: 55%;
+    top: 15%;
+  }
+  .banner-img-box1 {
+    padding: 0.15rem;
+    left: 4%;
+    top: 48%;
+  }
+  .banner-img-box1-title,
+  .banner-img-box2-title {
+    font-size: 18px;
+  }
+  .banner-img-box1-sab,
+  .banner-img-box2-sab {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.5rem;
+  }
+  /* Change Your Habits start */
+  .Your-Habits {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .Habits-img-contaner {
+    grid-template-columns: 1fr;
+  }
+  .Habits-img-conten {
+    margin: 0 auto;
+  }
+
+  .Habits-contaner-title {
+    font-size: 25px;
+  }
+  .Habits-contaner-sab {
+    width: 300px;
+    font-size: 13px;
+  }
+  /* Run an Extra  start */
+
+  .Run-contaner {
+    display: block;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .Run-section h3 {
+    font-size: 35px;
+  }
+  .ren-dis {
+    margin: 15px 0;
+  }
+  .btn-primary3 {
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  /*  Run an Extra  end */
+  /* Trainings and Exercises start */
+  .Trainings {
+    margin: 1rem;
+  }
+  .rew-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .rew-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* Trainings and Exercises end */
+  /*  habit to play   start */
+  .play-contaner {
+    display: block;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .play-section h3 {
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .play-dis {
+    margin: 15px 0;
+  }
+  .btn-primary3 {
+    width: 100%;
+  }
+
+  /*  habit to play   end */
+  /* BMI Calculator start */
+  .bmi-contaner {
+    display: block;
+  }
+  .bmi-section-contaner {
+    margin: 20px;
+  }
+
+  .Calculate-input input,
+  select {
+    width: 30%;
+  }
+  .Calculate-input select {
+    width: 48%;
+  }
+  .Calculate-input-2 select {
+    width: 100%;
+  }
+  .Calculate-title {
+    font-size: 20px;
+  }
+  .bmi-section-contaner {
+    margin: 10px 20px;
+  }
+  .bmi-sition h3 {
+    font-size: 28px;
+  }
+  /* BMI Calculator end */
+  /* Meet Our Team section start */
+  .Meet-section {
+    margin: 20px;
+  }
+  .Meet-box1 {
+    grid-template-columns: 1fr;
+  }
+
+  .Meet-box2 {
+    grid-template-columns: 1fr;
+  }
+  /* Meet Our Team section end */
+  /* footer  */
+  .footer-contanrt,
+  .footer-right {
+    display: block;
+  }
+  .footer-right-div {
+    margin-bottom: 2rem;
+  }
+  .footer-contan {
+    margin-bottom: 2rem;
+  }
+  .footer-p {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-list-contaner > ul {
+    gap: 1rem;
+  }
+  /* banner section */
+  .banner {
+    display: block;
+  }
+  .banner-img-contaner {
+    margin: 2rem;
+  }
+  .banner-img-box2 {
+    padding: 1rem;
+    left: 55%;
+    top: 15%;
+  }
+  .banner-img-box1 {
+    padding: 1rem;
+    left: 4%;
+    top: 58%;
+  }
+  /* Change Your Habits start */
+  .Habits-img-contaner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .Habits-img-conten {
+    margin: 0 auto;
+  }
+  /*  Run an Extra  start */
+  .Run-contaner {
+    gap: 2rem;
+  }
+  .Run-section h3 {
+    font-size: 38px;
+  }
+  .btn-primary3 {
+    margin-top: 20px;
+  }
+  .ren-dis {
+    margin: 18px 0;
+  }
+  /*  Run an Extra  end */
+  /*  habit to play   start */
+
+  .play-section h3 {
+    font-size: 38px;
+  }
+  .play-dis {
+    margin: 20px 0;
+  }
+
+  /*  habit to play   end */
+  /* BMI Calculator start */
+  .bmi-contaner {
+    display: block;
+  }
+  .bmi-section-contaner {
+    margin: 20px;
+  }
+
+  .Calculate-input input,
+  select {
+    width: 20%;
+  }
+  .Calculate-input select {
+    margin-top: 20px;
+    width: 30%;
+  }
+  .Calculate-input-2 select {
+    margin-top: 20px;
+    width: 63%;
+  }
+  /* footer */
+  .footer-contanrt {
+    display: block;
+    gap: 2rem;
+  }
+  .footer-right-div {
+    margin-bottom: 2rem;
+  }
+  .footer-contan {
+    margin-bottom: 2rem;
+  }
+}
